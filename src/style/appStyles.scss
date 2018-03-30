@@ -1,0 +1,20 @@
+@import 'themeColors';
+$theme-font: verdana, sans-serif;
+
+.overall_container {
+  width: 1400px;
+  height: 1000px;
+  background-color: $themeColor-Dark;
+  display: flex;
+}
+
+.svg_container {
+  width: 75%;
+  height: 100%;
+  background-color: $themeColor-Light;
+}
+
+.scroll_container {
+  width: 25%;
+  height: 100%;
+}

@@ -23,11 +23,12 @@ module.exports = {
 					}
 				}
 			},
-			{ 
-				test: /\.css$/, 
+			{
+				test: /\.scss$/,
 				use:[
 					'style-loader',
-					'css-loader'
+					'css-loader',
+					'sass-loader'
 				]
 			},
 			{ test: /\.woff(\d+)?$/, loader: 'url-loader?prefix=font/&limit=5000&mimetype=application/font-woff' },
