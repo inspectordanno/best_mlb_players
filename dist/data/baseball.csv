@@ -1,91 +1,91 @@
-Year,Position,Name,Teams,WAR,Runs,Hits,HR,RBI,SB,BA,W,L,ERA,SO,K_9,WHIP
-1910s,Catcher,Wally Schang,"Philadelphia Athletics, Boston Red Sox",20.6,301,568,17,265,68,0.273,,,,,,
-1910s,First Base,Jake Daubert,"ÊBrooklyn Dodgers,ÊCincinnati Reds",29.2,727,1535,35,459,198,0.302,,,,,,
-1910s,Second Base,Eddie Collins,"Philadelphia Athletics,ÊChicago White Sox",73.4,991,1682,21,681,489,0.326,,,,,,
-1910s,Third Base,Home Run Baker,"Philadelphia Athletics, New York Yankees",53.2,733,1502,76,793,206,0.31,,,,,,
-1910s,Shortstop,Honus Wagner,Pittsburgh Pirates,34.5,507,1120,31,518,152,0.296,,,,,,
-1910s,Outfield,Ty Cobb,Detroit Tigers,84.3,1049,1948,47,827,576,0.387,,,,,,
-1910s,Outfield,Shoeless Joe Jackson,"Cleveland Indians, Chicago White Sox",55.3,765,1548,42,665,193,0.354,,,,,,
-1910s,Outfield,Tris Speaker,"Boston Red Sox, Cleveland Indians",76.2,967,1821,38,718,340,0.344,,,,,,
-1910s,Pitcher,Walter Johnson,Washington Senators,108,,,,,,,454,361,1.59,2219,5.8,0.0953
-1920s,Catcher,Bubbles Hargrave,Cincinatti Reds,18.5,298,744,29,359,27,0.314,,,,,,
-1920s,First Base,Lou Gehrig (1920s),New York Yankees,39.3,631,919,146,635,30,0.335,,,,,,
-1920s,Second Base,Rogers Hornsby,"St. Louis Cardinals,ÊNew York Giants,ÊBoston Braves,ÊChicago Cubs",93.1,1195,2085,250,1153,74,0.382,,,,,,
-1920s,Third Base,Pie Traynor,Pittsburgh Pirates,23,764,1496,42,804,129,0.322,,,,,,
-1920s,Shortstop,Joe Sewell,Cleveland Indians,44.1,813,1698,30,820,70,0.322,,,,,,
-1920s,Outfield,Babe Ruth (1920s),New York Yankees,102.4,1365,1734,467,1338,88,0.355,,,,,,
-1920s,Outfield,Harry Heilmann,Detroit Tigers,56.8,962,1924,142,1131,70,0.364,,,,,,
-1920s,Outfield,Goose Goslin,Washington Senators,39.7,717,1436,108,822,109,0.33,,,,,,
-1920s,Pitcher,Pete Alexander,"Chicago Cubs, St. Louis Cardinals",48.5,,,,,,,165,105,3.04,653,2.4,1.191
-1930s,Catcher,Bill Dickey,New York Yankees,42.6,722,1431,168,937,26,0.32,,,,,,
-1930s,First Base,Lou Gehrig (1930s),New York Yankees,73.1,1257,1802,347,1360,72,0.343,,,,,,
-1930s,Second Base,Charlie Gehringer,Detroit Tigers,61.1,1181,1865,146,1003,101,0.331,,,,,,
-1930s,Third Base,Red Rolfe,New York Yankees,21.1,692,1041,43,377,36,0.305,,,,,,
-1930s,Shortstop,Arky Vaughan,Pittsburgh Pirates,53.2,754,1413,71,631,66,0.329,,,,,,
-1930s,Outfield,Babe Ruth (1930s),"New York Yankees, Boston Braves",40.6,607,797,198,652,22,0.331,,,,,,
-1930s,Outfield,Joe DiMaggio (1930s),New York Yankees,26.3,520,791,137,558,16,0.341,,,,,,
-1930s,Outfield,Mel Ott,New York Giants,68.7,1095,1673,308,1135,50,0.313,,,,,,
-1930s,Pitcher,Lefty Grove,"Philadelphia Athletics, Boston Red Sox",78.3,,,,,,,199,76,2.91,1313,4.9,1.243
-1940s,Catcher,Ernie Lombardi,"Cincinatti Reds, Boston Braves, New York Giants",19.2,244,725,90,419,3,0.294,,,,,,
-1940s,First Base,Johnny Mize,"St. Louis Cardinals,ÊNew York Giants, New York Yankees",41.2,655,1071,217,744,24,0.304,,,,,,
-1940s,Second Base,Joe Gordon,"New York Yankees, Cleveland Indians",45.6,680,1165,181,710,63,0.27,,,,,,
-1940s,Third Base,Whitey Kurowski,St. Louis Cardinals,24,518,925,106,529,19,0.286,,,,,,
-1940s,Shortstop,Lou Boudreau,Cleveland Indians,59.9,758,1578,62,692,47,0.3,,,,,,
-1940s,Outfield,Ted Williams (1940s),Boston Red Sox,65.9,951,1303,234,893,14,0.356,,,,,,
-1940s,Outfield,Joe DiMaggio (1940s),New York Yankees,43.6,681,1156,180,786,14,0.325,,,,,,
-1940s,Outfield,Stan Musial,St. Louis Cardinals,57.6,815,1432,146,706,44,0.346,,,,,,
-1940s,Pitcher,Bob Feller,Cleveland Indians,38.2,,,,,,,137,82,2.9,1396,6.6,1.247
-1950s,Catcher,Yogi Berra,New York Yankees,47.2,848,1499,256,997,20,0.287,,,,,,
-1950s,First Base,Ted Kluszweski,"Cincinatti Reds, Pittsburgh Pirates, Chicago White Sox",29.4,683,1380,239,823,16,0.302,,,,,,
-1950s,Second Base,Nellie Fox,Chicago White Sox,40.6,902,1837,27,534,68,0.3,,,,,,
-1950s,Third Base,Eddie Mathews,"Boston Braves, Milwaukee Braves",53.5,821,1221,299,777,36,0.281,,,,,,
-1950s,Shortstop,Ernie Banks,Chicago Cubs,42.3,582,1051,228,661,35,0.295,,,,,,
-1950s,Outfield,Ted Williams (1950s),Boston Red Sox,47.5,660,1068,227,729,7,0.336,,,,,,
-1950s,Outfield,Mickey Mantle (1950s),New York Yankees,67.5,994,1392,280,841,98,0.311,,,,,,
-1950s,Outfield,Willie Mays (1950s),"New York Giants, San Francisco Giants",58.7,777,1291,250,709,179,0.317,,,,,,
-1950s,Pitcher,Whitey Ford,New York Yankees,26.6,,,,,,,121,50,2.66,915,5.3,1.258
-1960s,Catcher,Joe Torre,"Milwaukee Braves, Atlanta Braves, St. Louis Cardinals",36.3,542,1261,160,653,10,0.293,,,,,,
-1960s,First Base,Willie McCovey,San Francisco Giants,44.5,728,1189,300,821,17,0.279,,,,,,
-1960s,Second Base,Pete Rose (1960s),Cincinatti Reds,30.1,679,1327,75,433,50,0.309,,,,,,
-1960s,Third Base,Dick Allen,Philadelphia Phillies,35.2,591,966,177,544,64,0.3,,,,,,
-1960s,Shortstop,Dick McAuliffe,Detroit Tigers,28.8,630,1056,142,487,52,0.255,,,,,,
-1960s,Outfield,Mickey Mantle (1960s),New York Yankees,42.3,682,1023,256,668,55,0.282,,,,,,
-1960s,Outfield,Frank Robinson,"Cincinatti Reds, Baltimore Orioles",64.6,1013,1603,316,1011,145,0.304,,,,,,
-1960s,Outfield,Willie Mays (1960s),San Francisco Giants,84.1,1050,1635,350,1003,126,0.3,,,,,,
-1960s,Pitcher,Sandy Koufax,"Brooklyn Dodgers, Los Angeles Dodgers",48,,,,,,,137,60,2.36,1910,9.5,1.005
-1970s,Catcher,Johnny Bench,Cincinatti Reds,58.8,792,1396,290,1013,56,0.267,,,,,,
-1970s,First Base,Dick Allen,"St. Louis Cardinals,ÊLos Angeles Dodgers,ÊChicago White Sox,ÊPhiladelphia Phillies,ÊOakland Athletics",23.5,508,882,174,575,69,0.284,,,,,,
-1970s,Second Base,Joe Morgan,"Houston Astros, Cincinatti Reds",66.9,1005,1451,173,720,488,0.282,,,,,,
-1970s,Third Base,Mike Schmidt (1970s),Philadelphia Phillies,50.1,674,947,235,666,117,0.255,,,,,,
-1970s,Shortstop,Toby Harrah,"Washington Senators, Texas Rangers, Cleveland Indians",31.5,625,1151,128,560,160,0.261,,,,,,
-1970s,Outfield,Willie Stargell,Pittsburgh Pirates,37.8,718,1261,296,906,6,0.287,,,,,,
-1970s,Outfield,Reggie Jackson,"Oakland Athletics, Baltimore Orioles, New York Yankees",51.2,833,1410,292,922,183,0.275,,,,,,
-1970s,Outfield,Reggie Smith,"Boston Red Sox, St. Louis Cardinals, Los Angeles Dodgers",44.7,776,1355,225,750,80,0.292,,,,,,
-1970s,Pitcher,Tom Seaver,New York Mets,67.3,843,,,,,,178,101,2.61,2304,7.8,1.073
-1980s,Catcher,Gary Carter,"Montreal Expos, New York Mets",44.7,625,1265,207,800,11,0.264,,,,,,
-1980s,First Base,Don Mattingly,New York Yankees,33.2,615,1300,164,717,8,0.323,,,,,,
-1980s,Second Base,Lou Whitaker,Detroit Tigers,43.4,814,1452,143,619,87,0.275,,,,,,
-1980s,Third Base,Mike Schmidt (1980s),Philadelphia Phillies,56.4,832,1287,313,929,57,0.277,,,,,,
-1980s,Shortstop,Cal Ripken Jr.,Baltimore Orioles,50.1,793,1402,204,744,19,0.277,,,,,,
-1980s,Outfield,Darryl Strawberry,New York Mets,30.2,570,875,215,625,176,0.26,,,,,,
-1980s,Outfield,Rickey Henderson,"Oakland Athletics, New York Yankees",70.8,1122,1507,137,535,838,0.291,,,,,,
-1980s,Outfield,Dwight Evans,Boston Red Sox,42,956,1497,256,900,37,0.28,,,,,,
-1980s,Pitcher,Roger Clemens,Boston Red Sox,35.7,,,,,,,95,45,3.06,1215,8.5,1.136
-1990s,Catcher,Mike Piazza,"Los Angeles Dodgers, Florida Marlins",41.5,611,1200,240,768,13,0.328,,,,,,
-1990s,First Base,Frank Thomas,Chicago White Sox,52.7,968,1564,301,1040,28,0.32,,,,,,
-1990s,Second Base,Craig Biggio,Houston Astros,52.9,1042,1728,136,641,319,0.297,,,,,,
-1990s,Third Base,Chipper Jones,Atlanta Braves,26.9,542,871,153,524,83,0.301,,,,,,
-1990s,Shortstop,Barry Larkin,Cincinatti Reds,52.4,834,1447,137,639,266,0.303,,,,,,
-1990s,Outfield,Barry Bonds (1990s),"Pittsburgh Pirates, San Francisco Giants",79.9,1091,1478,361,1076,343,0.302,,,,,,
-1990s,Outfield,Ken Griffey Jr.,Seattle Mariners,67.3,1002,1622,382,1091,151,0.302,,,,,,
-1990s,Outfield,Albert Belle,"Cleveland Indians, Chicago White Sox, Baltimore Orioles",39.4,881,1520,351,1099,86,0.299,,,,,,
-1990s,Pitcher,Greg Maddux,"Chicago Cubs, Atlanta Braves",65.3,,,,,,,176,88,2.54,1764,6.6,1.055
-2000s,Catcher,Jorge Posada,New York Yankees,37.5,681,1251,208,819,15,0.283,,,,,,
-2000s,First Base,Albert Pujols,St. Louis Cardinals,73.6,1071,1717,366,1112,61,0.334,,,,,,
-2000s,Second Base,Chase Utley,Philadelphia Phillies,42.1,602,978,161,585,83,0.295,,,,,,
-2000s,Third Base,Alex Rodriguez,New York Yankees,77.6,1190,1740,435,1243,179,0.304,,,,,,
-2000s,Shortstop,Derek Jeter,New York Yankees,43.9,1088,1940,161,727,219,0.317,,,,,,
-2000s,Outfield,Barry Bonds (2000s),San Francisco Giants,59.1,772,925,317,697,54,0.322,,,,,,
-2000s,Outfield,Manny Ramirez,"Cleveland Indians, Boston Red Sox, Los Angeles Dodgers",43.5,933,1562,348,1106,10,0.317,,,,,,
-2000s,Outfield,Lance Berkman,Houston Astros,46.2,959,1553,309,1026,74,0.3,,,,,,
-2000s,Pitcher,Pedro Martinez,"Boston Red Sox, New York Mets, Philadelphia Phillies",45.7,,,,,,,112,50,3.01,1620,9.9,1.036
+Year,Position,Name,Teams,WAR,Runs,Hits,HR,RBI,SB,BA,W,L,ERA,SO,K_9,WHIP,Position_type
+1910s,Catcher,Wally Schang,"Philadelphia Athletics, Boston Red Sox",20.6,301,568,17,265,68,0.273,,,,,,,Offense
+1910s,First Base,Jake Daubert,"ÊBrooklyn Dodgers,ÊCincinnati Reds",29.2,727,1535,35,459,198,0.302,,,,,,,Offense
+1910s,Second Base,Eddie Collins,"Philadelphia Athletics,ÊChicago White Sox",73.4,991,1682,21,681,489,0.326,,,,,,,Offense
+1910s,Third Base,Home Run Baker,"Philadelphia Athletics, New York Yankees",53.2,733,1502,76,793,206,0.31,,,,,,,Offense
+1910s,Shortstop,Honus Wagner,Pittsburgh Pirates,34.5,507,1120,31,518,152,0.296,,,,,,,Offense
+1910s,Outfield,Ty Cobb,Detroit Tigers,84.3,1049,1948,47,827,576,0.387,,,,,,,Offense
+1910s,Outfield,Shoeless Joe Jackson,"Cleveland Indians, Chicago White Sox",55.3,765,1548,42,665,193,0.354,,,,,,,Offense
+1910s,Outfield,Tris Speaker,"Boston Red Sox, Cleveland Indians",76.2,967,1821,38,718,340,0.344,,,,,,,Offense
+1910s,Pitcher,Walter Johnson,Washington Senators,108,,,,,,,454,361,1.59,2219,5.8,0.0953,Pitcher
+1920s,Catcher,Bubbles Hargrave,Cincinatti Reds,18.5,298,744,29,359,27,0.314,,,,,,,Offense
+1920s,First Base,Lou Gehrig (1920s),New York Yankees,39.3,631,919,146,635,30,0.335,,,,,,,Offense
+1920s,Second Base,Rogers Hornsby,"St. Louis Cardinals,ÊNew York Giants,ÊBoston Braves,ÊChicago Cubs",93.1,1195,2085,250,1153,74,0.382,,,,,,,Offense
+1920s,Third Base,Pie Traynor,Pittsburgh Pirates,23,764,1496,42,804,129,0.322,,,,,,,Offense
+1920s,Shortstop,Joe Sewell,Cleveland Indians,44.1,813,1698,30,820,70,0.322,,,,,,,Offense
+1920s,Outfield,Babe Ruth (1920s),New York Yankees,102.4,1365,1734,467,1338,88,0.355,,,,,,,Offense
+1920s,Outfield,Harry Heilmann,Detroit Tigers,56.8,962,1924,142,1131,70,0.364,,,,,,,Offense
+1920s,Outfield,Goose Goslin,Washington Senators,39.7,717,1436,108,822,109,0.33,,,,,,,Offense
+1920s,Pitcher,Pete Alexander,"Chicago Cubs, St. Louis Cardinals",48.5,,,,,,,165,105,3.04,653,2.4,1.191,Pitcher
+1930s,Catcher,Bill Dickey,New York Yankees,42.6,722,1431,168,937,26,0.32,,,,,,,Offense
+1930s,First Base,Lou Gehrig (1930s),New York Yankees,73.1,1257,1802,347,1360,72,0.343,,,,,,,Offense
+1930s,Second Base,Charlie Gehringer,Detroit Tigers,61.1,1181,1865,146,1003,101,0.331,,,,,,,Offense
+1930s,Third Base,Red Rolfe,New York Yankees,21.1,692,1041,43,377,36,0.305,,,,,,,Offense
+1930s,Shortstop,Arky Vaughan,Pittsburgh Pirates,53.2,754,1413,71,631,66,0.329,,,,,,,Offense
+1930s,Outfield,Babe Ruth (1930s),"New York Yankees, Boston Braves",40.6,607,797,198,652,22,0.331,,,,,,,Offense
+1930s,Outfield,Joe DiMaggio (1930s),New York Yankees,26.3,520,791,137,558,16,0.341,,,,,,,Offense
+1930s,Outfield,Mel Ott,New York Giants,68.7,1095,1673,308,1135,50,0.313,,,,,,,Offense
+1930s,Pitcher,Lefty Grove,"Philadelphia Athletics, Boston Red Sox",78.3,,,,,,,199,76,2.91,1313,4.9,1.243,Pitcher
+1940s,Catcher,Ernie Lombardi,"Cincinatti Reds, Boston Braves, New York Giants",19.2,244,725,90,419,3,0.294,,,,,,,Offense
+1940s,First Base,Johnny Mize,"St. Louis Cardinals,ÊNew York Giants, New York Yankees",41.2,655,1071,217,744,24,0.304,,,,,,,Offense
+1940s,Second Base,Joe Gordon,"New York Yankees, Cleveland Indians",45.6,680,1165,181,710,63,0.27,,,,,,,Offense
+1940s,Third Base,Whitey Kurowski,St. Louis Cardinals,24,518,925,106,529,19,0.286,,,,,,,Offense
+1940s,Shortstop,Lou Boudreau,Cleveland Indians,59.9,758,1578,62,692,47,0.3,,,,,,,Offense
+1940s,Outfield,Ted Williams (1940s),Boston Red Sox,65.9,951,1303,234,893,14,0.356,,,,,,,Offense
+1940s,Outfield,Joe DiMaggio (1940s),New York Yankees,43.6,681,1156,180,786,14,0.325,,,,,,,Offense
+1940s,Outfield,Stan Musial,St. Louis Cardinals,57.6,815,1432,146,706,44,0.346,,,,,,,Offense
+1940s,Pitcher,Bob Feller,Cleveland Indians,38.2,,,,,,,137,82,2.9,1396,6.6,1.247,Pitcher
+1950s,Catcher,Yogi Berra,New York Yankees,47.2,848,1499,256,997,20,0.287,,,,,,,Offense
+1950s,First Base,Ted Kluszweski,"Cincinatti Reds, Pittsburgh Pirates, Chicago White Sox",29.4,683,1380,239,823,16,0.302,,,,,,,Offense
+1950s,Second Base,Nellie Fox,Chicago White Sox,40.6,902,1837,27,534,68,0.3,,,,,,,Offense
+1950s,Third Base,Eddie Mathews,"Boston Braves, Milwaukee Braves",53.5,821,1221,299,777,36,0.281,,,,,,,Offense
+1950s,Shortstop,Ernie Banks,Chicago Cubs,42.3,582,1051,228,661,35,0.295,,,,,,,Offense
+1950s,Outfield,Ted Williams (1950s),Boston Red Sox,47.5,660,1068,227,729,7,0.336,,,,,,,Offense
+1950s,Outfield,Mickey Mantle (1950s),New York Yankees,67.5,994,1392,280,841,98,0.311,,,,,,,Offense
+1950s,Outfield,Willie Mays (1950s),"New York Giants, San Francisco Giants",58.7,777,1291,250,709,179,0.317,,,,,,,Offense
+1950s,Pitcher,Whitey Ford,New York Yankees,26.6,,,,,,,121,50,2.66,915,5.3,1.258,Pitcher
+1960s,Catcher,Joe Torre,"Milwaukee Braves, Atlanta Braves, St. Louis Cardinals",36.3,542,1261,160,653,10,0.293,,,,,,,Offense
+1960s,First Base,Willie McCovey,San Francisco Giants,44.5,728,1189,300,821,17,0.279,,,,,,,Offense
+1960s,Second Base,Pete Rose (1960s),Cincinatti Reds,30.1,679,1327,75,433,50,0.309,,,,,,,Offense
+1960s,Third Base,Dick Allen,Philadelphia Phillies,35.2,591,966,177,544,64,0.3,,,,,,,Offense
+1960s,Shortstop,Dick McAuliffe,Detroit Tigers,28.8,630,1056,142,487,52,0.255,,,,,,,Offense
+1960s,Outfield,Mickey Mantle (1960s),New York Yankees,42.3,682,1023,256,668,55,0.282,,,,,,,Offense
+1960s,Outfield,Frank Robinson,"Cincinatti Reds, Baltimore Orioles",64.6,1013,1603,316,1011,145,0.304,,,,,,,Offense
+1960s,Outfield,Willie Mays (1960s),San Francisco Giants,84.1,1050,1635,350,1003,126,0.3,,,,,,,Offense
+1960s,Pitcher,Sandy Koufax,"Brooklyn Dodgers, Los Angeles Dodgers",48,,,,,,,137,60,2.36,1910,9.5,1.005,Pitcher
+1970s,Catcher,Johnny Bench,Cincinatti Reds,58.8,792,1396,290,1013,56,0.267,,,,,,,Offense
+1970s,First Base,Dick Allen,"St. Louis Cardinals,ÊLos Angeles Dodgers,ÊChicago White Sox,ÊPhiladelphia Phillies,ÊOakland Athletics",23.5,508,882,174,575,69,0.284,,,,,,,Offense
+1970s,Second Base,Joe Morgan,"Houston Astros, Cincinatti Reds",66.9,1005,1451,173,720,488,0.282,,,,,,,Offense
+1970s,Third Base,Mike Schmidt (1970s),Philadelphia Phillies,50.1,674,947,235,666,117,0.255,,,,,,,Offense
+1970s,Shortstop,Toby Harrah,"Washington Senators, Texas Rangers, Cleveland Indians",31.5,625,1151,128,560,160,0.261,,,,,,,Offense
+1970s,Outfield,Willie Stargell,Pittsburgh Pirates,37.8,718,1261,296,906,6,0.287,,,,,,,Offense
+1970s,Outfield,Reggie Jackson,"Oakland Athletics, Baltimore Orioles, New York Yankees",51.2,833,1410,292,922,183,0.275,,,,,,,Offense
+1970s,Outfield,Reggie Smith,"Boston Red Sox, St. Louis Cardinals, Los Angeles Dodgers",44.7,776,1355,225,750,80,0.292,,,,,,,Offense
+1970s,Pitcher,Tom Seaver,New York Mets,67.3,843,,,,,,178,101,2.61,2304,7.8,1.073,Pitcher
+1980s,Catcher,Gary Carter,"Montreal Expos, New York Mets",44.7,625,1265,207,800,11,0.264,,,,,,,Offense
+1980s,First Base,Don Mattingly,New York Yankees,33.2,615,1300,164,717,8,0.323,,,,,,,Offense
+1980s,Second Base,Lou Whitaker,Detroit Tigers,43.4,814,1452,143,619,87,0.275,,,,,,,Offense
+1980s,Third Base,Mike Schmidt (1980s),Philadelphia Phillies,56.4,832,1287,313,929,57,0.277,,,,,,,Offense
+1980s,Shortstop,Cal Ripken Jr.,Baltimore Orioles,50.1,793,1402,204,744,19,0.277,,,,,,,Offense
+1980s,Outfield,Darryl Strawberry,New York Mets,30.2,570,875,215,625,176,0.26,,,,,,,Offense
+1980s,Outfield,Rickey Henderson,"Oakland Athletics, New York Yankees",70.8,1122,1507,137,535,838,0.291,,,,,,,Offense
+1980s,Outfield,Dwight Evans,Boston Red Sox,42,956,1497,256,900,37,0.28,,,,,,,Offense
+1980s,Pitcher,Roger Clemens,Boston Red Sox,35.7,,,,,,,95,45,3.06,1215,8.5,1.136,Pitcher
+1990s,Catcher,Mike Piazza,"Los Angeles Dodgers, Florida Marlins",41.5,611,1200,240,768,13,0.328,,,,,,,Offense
+1990s,First Base,Frank Thomas,Chicago White Sox,52.7,968,1564,301,1040,28,0.32,,,,,,,Offense
+1990s,Second Base,Craig Biggio,Houston Astros,52.9,1042,1728,136,641,319,0.297,,,,,,,Offense
+1990s,Third Base,Chipper Jones,Atlanta Braves,26.9,542,871,153,524,83,0.301,,,,,,,Offense
+1990s,Shortstop,Barry Larkin,Cincinatti Reds,52.4,834,1447,137,639,266,0.303,,,,,,,Offense
+1990s,Outfield,Barry Bonds (1990s),"Pittsburgh Pirates, San Francisco Giants",79.9,1091,1478,361,1076,343,0.302,,,,,,,Offense
+1990s,Outfield,Ken Griffey Jr.,Seattle Mariners,67.3,1002,1622,382,1091,151,0.302,,,,,,,Offense
+1990s,Outfield,Albert Belle,"Cleveland Indians, Chicago White Sox, Baltimore Orioles",39.4,881,1520,351,1099,86,0.299,,,,,,,Offense
+1990s,Pitcher,Greg Maddux,"Chicago Cubs, Atlanta Braves",65.3,,,,,,,176,88,2.54,1764,6.6,1.055,Pitcher
+2000s,Catcher,Jorge Posada,New York Yankees,37.5,681,1251,208,819,15,0.283,,,,,,,Offense
+2000s,First Base,Albert Pujols,St. Louis Cardinals,73.6,1071,1717,366,1112,61,0.334,,,,,,,Offense
+2000s,Second Base,Chase Utley,Philadelphia Phillies,42.1,602,978,161,585,83,0.295,,,,,,,Offense
+2000s,Third Base,Alex Rodriguez,New York Yankees,77.6,1190,1740,435,1243,179,0.304,,,,,,,Offense
+2000s,Shortstop,Derek Jeter,New York Yankees,43.9,1088,1940,161,727,219,0.317,,,,,,,Offense
+2000s,Outfield,Barry Bonds (2000s),San Francisco Giants,59.1,772,925,317,697,54,0.322,,,,,,,Offense
+2000s,Outfield,Manny Ramirez,"Cleveland Indians, Boston Red Sox, Los Angeles Dodgers",43.5,933,1562,348,1106,10,0.317,,,,,,,Offense
+2000s,Outfield,Lance Berkman,Houston Astros,46.2,959,1553,309,1026,74,0.3,,,,,,,Offense
+2000s,Pitcher,Pedro Martinez,"Boston Red Sox, New York Mets, Philadelphia Phillies",45.7,,,,,,,112,50,3.01,1620,9.9,1.036,Pitcher

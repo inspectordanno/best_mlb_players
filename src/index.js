@@ -12,26 +12,32 @@ import {parse} from './components/utils'
 //   });
 
   d3.csv('./data/baseball.csv',parse).then(function(data) {
-    console.log(data); // [{"Hello": "world"}, …]
+    console.log(data); // [{"Hello": "world"}, …
   });
+
+  d3.xml("./diamond.svg").then(function(xml) {
+  document.getElementById('svg_container').appendChild(xml.documentElement);
+  var base = d3.select('#firstbase');
+  base.style("fill", "red")
+});
+
+//instantiate 9 circles
+
+//
+
 
 
   //scale svg_container
 
 
-  const svgBaseballField = document.getElementById('diamond');
-  const svgLayer = document.getElementById('layer1');
-  console.log(svgBaseballField);
-  console.log(svgLayer);
-  // const svgContainer = document.getElementsByClassName('svg_container')[0];
-  // console.log(svgContainer);
+  // const svgBaseballField = document.getElementById('diamond');
+  // const svgLayer = document.getElementById('layer1');
+  // console.log(svgBaseballField);
+  // console.log(svgLayer);
   //
-  // const svgContainerHeight = svgContainer.clientHeight;
-  // console.log(svgContainerHeight);
-  // const svgContainerWidth = svgContainer.clientWidth;
-  // console.log(svgContainerWidth);
-
-  svgBaseballField.setAttribute("width", '100%');
-  svgBaseballField.setAttribute("height", '100%');
-
-  svgBaseballField.setAttribute("viewBox", "0 0 200 200");
+  //
+  // svgBaseballField.setAttribute("width", '100%');
+  // svgBaseballField.setAttribute("height", '100%');
+  //
+  // svgBaseballField.setAttribute("viewBox", "0 0 650 500");
+  // svgBaseballField.setAttribute("preserveAspectRatio", "none");
