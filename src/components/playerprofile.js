@@ -3,6 +3,8 @@ const nestedData = d3.nest()
   .key(d => d.Position_type)
   .entries(data);
 
+
+
 data.forEach(d => {
   let html = `<div class="player_title">${d.Name}</div>` //name of player
     html+= `<div class="player_WAR">${d.WAR}</div>` //WAR

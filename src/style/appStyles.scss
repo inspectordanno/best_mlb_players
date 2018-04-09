@@ -22,6 +22,10 @@ html, body {
 .scroll{
   height:1000%;
   background:red;
+
+  .scroll_div {
+    height: 10%;
+  }
 }
 
 #svg_container {

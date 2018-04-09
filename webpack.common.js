@@ -1,8 +1,17 @@
 //run webpack-dev-server --content-base dist
 //https://webpack.github.io/docs/configuration.html
 const path = require('path');
+const webpack = require('webpack');
+
 
 module.exports = {
+	plugins:[
+		new webpack.ProvidePlugin({
+		  $: "jquery",
+		  jQuery: "jquery",
+			'window.jQuery': 'jquery'
+		})
+	],
 	entry:[
 		'./src/index.js',
 		'./src/index.html'
