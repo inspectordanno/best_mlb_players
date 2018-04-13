@@ -5,31 +5,14 @@ console.log($('body'));
 // const waypoints = require('waypoints/lib/jquery.waypoints.js');
 // console.log(waypoints);
 import * as waypoints from 'waypoints/lib/jquery.waypoints.js';
-import {parse} from './components/utils.js'
+import {parse} from './components/utils.js';
+import './style/tachyons.min.scss';
 import './style/appStyles.scss';
 
-// console.log(waypoints);
 
-// Import data using the Promise interface
-// Promise.all([
-//   fetchCsv('./data/baseball.csv')])
-//   .then(([baseball]) => {
-//     console.log(baseball);
-//   });
 
 //every time i trigger a waypoint, i am filtering out all the players that match the decade and then do an update pattern
 
-
-
-
-
-//
-//
-// const div1910 = $('#div_1910').waypoint({
-//   handler: function() {
-//     console.log('1910')
-//   }
-// });
 
   d3.csv('./data/baseball.csv',parse).then(function(data) {
     console.log(data); // [{"Hello": "world"}, …
@@ -57,10 +40,13 @@ import './style/appStyles.scss';
   d3.xml("./diamond.svg").then(function(xml) {
   document.getElementById('svg_container').appendChild(xml.documentElement);
   var base = d3.select('#firstbase');
-  base.style("fill", "red")
+  base.style("fill", "red");
+  console.log(base.node());
+  console.log(base.node().clientX);
 });
 
 //instantiate 9 circles
+
 
 //
 
