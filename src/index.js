@@ -52,12 +52,11 @@ console.log(dictionary);
 
   });
 
-  d3.xml("https://svgshare.com/i/6Cr.svg").then(function(xml) {
+  d3.xml("./diamond.svg").then(function(xml) {
   document.getElementById('svg_container').appendChild(xml.documentElement);
   var base = d3.select('#firstbase');
   base.style("fill", "red");
   //baseRect.top, baseRect.left
-  console.log(baseRect);
 });
 
 //instantiate 9 circles
