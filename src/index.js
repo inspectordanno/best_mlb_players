@@ -5,11 +5,12 @@ console.log($('body'));
 // const waypoints = require('waypoints/lib/jquery.waypoints.js');
 // console.log(waypoints);
 import * as waypoints from 'waypoints/lib/jquery.waypoints.js';
+import {dictionary} from './components/dictionary.js'
 import {parse} from './components/utils.js';
 import './style/tachyons.min.scss';
 import './style/appStyles.scss';
 
-
+console.log(dictionary);
 
 //every time i trigger a waypoint, i am filtering out all the players that match the decade and then do an update pattern
 
@@ -29,40 +30,37 @@ import './style/appStyles.scss';
 
     function render(id) {
       let year = id.replace('div_','');
-      var subset = data.filter(function(d){
+      let subset = data.filter(function(d){
             return d.Year == year;
           });
       console.log(subset);
+
+      //update
+      let updatePlayers = d3.select('svg')
+      .selectAll("circle")
+      .data(subset);
+
+      //enter
+      let enterPlayers = updatePlayers.enter()
+        .append("circle")
+        .merge(updatePlayers)
+        .attr("cx", d => {
+          let position = dictionary.get(d.Position);
+          console.log(position);
+        })
     }
 
   });
 
-  d3.xml("./diamond.svg").then(function(xml) {
+  d3.xml("https://svgshare.com/i/6Cr.svg").then(function(xml) {
   document.getElementById('svg_container').appendChild(xml.documentElement);
   var base = d3.select('#firstbase');
   base.style("fill", "red");
-  console.log(base.node());
-  console.log(base.node().clientX);
+  //baseRect.top, baseRect.left
+  console.log(baseRect);
 });
 
 //instantiate 9 circles
 
 
 //
-
-
-
-  //scale svg_container
-
-
-  // const svgBaseballField = document.getElementById('diamond');
-  // const svgLayer = document.getElementById('layer1');
-  // console.log(svgBaseballField);
-  // console.log(svgLayer);
-  //
-  //
-  // svgBaseballField.setAttribute("width", '100%');
-  // svgBaseballField.setAttribute("height", '100%');
-  //
-  // svgBaseballField.setAttribute("viewBox", "0 0 650 500");
-  // svgBaseballField.setAttribute("preserveAspectRatio", "none");

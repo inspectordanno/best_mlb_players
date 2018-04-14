@@ -22,14 +22,8 @@ export const parse = d => {
 	};
 };
 
-// export const fetchCsv = (url, parse) => {
-// 	return new Promise((resolve, reject) => {
-// 		csv(url, parse, (err, data) => {
-// 			if(err){
-// 				reject(err);
-// 			}else{
-// 				resolve(data);
-// 			}
-// 		})
-// 	});
-// }
+function boundingRectToXY(boundingRect){
+  return {
+
+  }
+}
