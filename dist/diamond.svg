@@ -44,8 +44,8 @@
 		<rect id="firstbase" x="1928.7" y="1341.8" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -393.0495 1778.962)" class="st7" width="44.2" height="44.2"/>
 
 		<rect id="secondbase" x="1434" y="845" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -186.6541 1283.6443)" class="st7" width="44.2" height="44.2"/>
-	<rect id="pitchersmound" x="1424.9" y="1371.5" class="st7" width="60.5" height="17.3"/>
-	<path id="homeplate" sodipodi:nodetypes="cccccc" class="st7" d="M1418.4,1827.4h64.8v33.5l-31.4,31.3l-33.4-35.5V1827.4z"/>
+	<rect id="pitcher" x="1424.9" y="1371.5" class="st7" width="60.5" height="17.3"/>
+	<path id="home" sodipodi:nodetypes="cccccc" class="st7" d="M1418.4,1827.4h64.8v33.5l-31.4,31.3l-33.4-35.5V1827.4z"/>
 	<rect id="rect2812" x="1504.8" y="1771.2" class="st8" width="64.8" height="151.2"/>
 	<rect id="rect2814" x="1332" y="1771.2" class="st8" width="64.8" height="151.2"/>
 	<rect id="rect2820" x="1418.1" y="1911.6" class="st8" width="65.4" height="108"/>

@@ -1,9 +1,9 @@
 import {map, select} from 'd3';
 
-export const dictionary = map()
-  .set('Pitcher', select('#pitchersmound').node().getBoundingClientRect()); //pitcher
+const dictionary = map();
+        dictionary.set('Pitcher', select('#pitcher').node().getBoundingClientRect()); //pitcher;
 
-  console.log(dictionary);
+        console.log(dictionary)
 
   // .set('Left Field') //left field
   // .set('Center Field')//center field
