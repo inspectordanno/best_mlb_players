@@ -4,6 +4,7 @@ const dictionary = map();
         dictionary.set('Pitcher', select('#pitcher').node().getBoundingClientRect()); //pitcher;
 
         console.log(dictionary)
+        //export const dictionary;
 
   // .set('Left Field') //left field
   // .set('Center Field')//center field
