@@ -1,11 +1,19 @@
 import {map, select} from 'd3';
 
+const positionSelect = position => {
+  select(position).node().getBoundingClientRect();
+};
+
+
 const dictionary = map();
-        dictionary.set('Pitcher', select('#pitcher').node().getBoundingClientRect()); //pitcher;
+dictionary.set('Pitcher', positionSelect('#pitcher'))
+  .set('Catcher', positionSelect('#catcher'))
+  .set('First Base', positionSelect('#firstbase'))
+  .set('Second Base', positionSelect('#secondbase'))
+  .set('Shortstop', positionSelect('#shortstop'))
+  .set('Third Base', positionSelect('#thirdbase'))
+  .set('Left Field', positionSelect('#leftfield'))
+  .set('Center Field', positionSelect('#centerfield'))
+  .set('Right Field', positionSelect('#rightfield'));
 
-        console.log(dictionary);
-        export const dictionary;
-
-  // .set('Left Field') //left field
-  // .set('Center Field')//center field
-  // .set('Right Field'); //right field
+export dictionary;

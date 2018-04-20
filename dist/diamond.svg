@@ -45,7 +45,7 @@
 
 		<rect id="secondbase" x="1434" y="845" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -186.6541 1283.6443)" class="st7" width="44.2" height="44.2"/>
 	<rect id="pitcher" x="1424.9" y="1371.5" class="st7" width="60.5" height="17.3"/>
-	<path id="home" sodipodi:nodetypes="cccccc" class="st7" d="M1418.4,1827.4h64.8v33.5l-31.4,31.3l-33.4-35.5V1827.4z"/>
+	<path id="catcher" sodipodi:nodetypes="cccccc" class="st7" d="M1418.4,1827.4h64.8v33.5l-31.4,31.3l-33.4-35.5V1827.4z"/>
 	<rect id="rect2812" x="1504.8" y="1771.2" class="st8" width="64.8" height="151.2"/>
 	<rect id="rect2814" x="1332" y="1771.2" class="st8" width="64.8" height="151.2"/>
 	<rect id="rect2820" x="1418.1" y="1911.6" class="st8" width="65.4" height="108"/>
@@ -64,7 +64,7 @@
 		l-297.1-3.6L1310.4,1749.6z M1305.5,1756.2l297.1,3.6c52.5,80.4,32.8,188.4-46.3,244.2c-80.9,57.1-192.8,37.9-249.9-43.1
 		C1262.1,1898.1,1262.2,1819,1305.5,1756.2z"/>
 </g>
-<rect x="2362.3" y="298.6" class="st11" width="90.9" height="62.4"/>
-<rect x="1420.5" y="298.6" class="st11" width="90.9" height="62.4"/>
-<rect x="478.6" y="298.6" class="st11" width="90.9" height="62.4"/>
+<rect x="2362.3" y="298.6" id="rightfield" class="st11" width="90.9" height="62.4"/>
+<rect x="1420.5" y="298.6" id="centerfield" class="st11" width="90.9" height="62.4"/>
+<rect x="478.6" y="298.6" id="leftfield" class="st11" width="90.9" height="62.4"/>
 </svg>
