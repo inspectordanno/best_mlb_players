@@ -1,4 +1,7 @@
-export const scrollDiv = () => {
+import * as d3 from 'd3';
+import drawPlayers from './players';
+
+export const scrollDiv = (data) => {
 
   $('.scroll_div').each(function(){
     // console.log($(this));
@@ -6,16 +9,23 @@ export const scrollDiv = () => {
     // console.log(id);
     $(this).waypoint({
       handler: () => {
-        render(id); //argument has to be the same as line 23 variable
+        render(id,data); //argument has to be the same as line 23 variable
       }
     });
   });
 };
 
-const render = id => {
+const render = (id,data) => {
   let year = id.replace('div_','');
   let subset = data.filter(d => {
         return d.Year == year;
       });
   console.log(subset);
+
+  //drawField
+  drawPlayers(subset);
+  //Draw or update the 10 dots representing the enterPlayer, using the subset array
+  //from the dictionary, you look up the {x,y} of each position
+
+
 };
