@@ -9,7 +9,7 @@ export const scrollDiv = (data) => {
     // console.log(id);
     $(this).waypoint({
       handler: () => {
-        render(id,data); //argument has to be the same as line 23 variable
+        render(id,data);
       }
     });
   });

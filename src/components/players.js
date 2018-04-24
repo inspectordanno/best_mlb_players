@@ -5,7 +5,7 @@ export default function(players){
 
   console.log(players);
 
-  const playersNode = d3.select('#baseballfield')
+  const playersNode = d3.select('#layer1')
     .selectAll('.player')
     .data(players, d => d.Name);
 
@@ -20,15 +20,22 @@ export default function(players){
       const xy = dictionary.get(d.Position);
       if(!xy) return 0;
       console.log(xy);
-      return xy.x * 3.33;
+      // console.log(d3.select("svg").node().getBBox().width / 650);
+      // return xy.x * (d3.select("svg").node().getBBox().width / 650);
+      return xy.x;
     })
     .attr('cy', d => {
       const xy = dictionary.get(d.Position);
       if(!xy) return 0;
-      return xy.y * 3.1;
+      return xy.y;
     })
-    .attr('r', 40);
+    .attr("transform", function(d) {
+      // console.log("ttt");
+      // console.log(d3.select("#rect2801").attr("transform"));
+      // return d3.select("#rect2803").attr("transform");
+    })
+    .attr('r', 3);
 
   playersNode.exit().remove();
 
-}
+};
