@@ -6,9 +6,9 @@ export const scrollDiv = (data) => {
   $('.scroll_div').each(function(){
     // console.log($(this));
     let id = $(this).attr('id');
-    // console.log(id);
     $(this).waypoint({
       handler: () => {
+        console.log(id);
         render(id,data);
       }
     });

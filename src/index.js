@@ -20,7 +20,7 @@ console.log(dictionary);
 
 Promise.all([
   d3.csv('./data/baseball.csv',parse),
-  d3.xml("./diamond_clean.svg")
+  d3.xml("./diamond_clean_updated.svg")
 ]).then(function([data,xml]) {
   document.getElementById('svg_container').appendChild(xml.documentElement);
 
@@ -28,12 +28,15 @@ Promise.all([
   // dictionary.set('Pitcher', positionSelect('#pitcher'))
     // .set('Catcher', positionSelect('#catcher'))
     dictionary.set('First Base', positionSelect('#rect2801'))
-    .set('Second Base', positionSelect('#rect2803'));
-    // .set('Shortstop', positionSelect('#shortstop'))
-    // .set('Third Base', positionSelect('#thirdbase'))
-    // .set('Left Field', positionSelect('#leftfield'))
-    // .set('Center Field', positionSelect('#centerfield'))
-    // .set('Right Field', positionSelect('#rightfield'));
+    .set('Second Base', positionSelect('#rect2803'))
+    .set('Shortstop', positionSelect('#shortstop'))
+    .set('Third Base', positionSelect('#rect2799'))
+    .set('Catcher', positionSelect('#home'))
+    .set('Left Field', positionSelect('#left'))
+    .set('Center Field', positionSelect('#center'))
+    .set('Right Field', positionSelect('#right'))
+    .set('Pitcher', positionSelect('#rect2805'));
+
 
     console.log(dictionary.get('Pitcher'));
     scrollDiv(data);

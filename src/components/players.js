@@ -15,7 +15,6 @@ export default function(players){
     .attr('class','player')
     .attr('id', d => d.Name)
     .merge(playersNode)
-    .transition()
     .attr('cx', d => {
       const xy = dictionary.get(d.Position);
       if(!xy) return 0;
@@ -29,12 +28,19 @@ export default function(players){
       if(!xy) return 0;
       return xy.y;
     })
-    .attr("transform", function(d) {
-      // console.log("ttt");
-      // console.log(d3.select("#rect2801").attr("transform"));
-      // return d3.select("#rect2803").attr("transform");
+    .attr('fill', d =>{
+      console.log(d.Year);
+      if (d.Year === "2000s") {
+        return 'red';
+      } else {
+        return 'gray';
+      }
     })
-    .attr('r', 3);
+    .attr('r', 8)
+    .on("mouseover", d => {
+      d3.select(".player_wrapper").html(d.Name);
+      console.log("hi");
+    });
 
   playersNode.exit().remove();
 
