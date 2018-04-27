@@ -5,7 +5,7 @@ export default function(players){
 
   console.log(players);
 
-  
+
 
   const playersNode = d3.select('#layer1')
     .selectAll('.player')
@@ -14,9 +14,9 @@ export default function(players){
   console.log(positionDictionary);
 
   playersNode.enter().append('circle')
+    .merge(playersNode)
     .attr('class','player')
     .attr('id', d => d.Name)
-    .merge(playersNode)
     .attr('cx', d => {
       const xy = positionDictionary.get(d.Position);
       if(!xy) return 0;
@@ -45,6 +45,9 @@ export default function(players){
       console.log("hi");
     });
 
+  console.log(playersNode);
+  console.log(playersNode.enter())
+  console.log(playersNode.exit());
   playersNode.exit().remove();
 
 };

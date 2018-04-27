@@ -33,7 +33,6 @@ const render = (id,data) => {
   changeColorField('#path3068', year);
   changeColorField('#path3074', year);
   makeGray(year)
-  console.log(subset);
 
   //drawField
   drawPlayers(subset);
@@ -43,6 +42,7 @@ const render = (id,data) => {
 
 function changeColorField(element, year) {
   d3.select(element)
+    .transition()
     .style('fill', () => {
       const fieldColor = fieldDictionary.get(year);
       return fieldColor;
