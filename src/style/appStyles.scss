@@ -36,6 +36,11 @@ html, body {
   background: #abbaab;  /* fallback for old browsers */
   background: -webkit-linear-gradient(to left, #ffffff, #abbaab);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to left, #ffffff, #abbaab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  #year {
+    text-align: center;
+    margin-bottom: 2%;
+  }
 }
 
 .player_wrapper {
@@ -55,7 +60,7 @@ html, body {
 }
 
 .player_bio {
-  margin: 5%;
+  margin: 2%;
 }
 
 .picture {
@@ -63,10 +68,28 @@ html, body {
   justify-content: center;
 
   img {
-    margin-top: 5%;
+    margin-top: 2%;
   }
 }
 
 .stats {
   margin-left: 25%;
+}
+
+#title_name {
+  font-size: 2em;
+  margin-top: 2%;
+}
+
+#war {
+  font-size: 1.25em;
+}
+
+#bio {
+  font-size: .8em;
+  margin: 2%;
+}
+
+#stats h3 {
+  font-size: 1.25em;
 }

@@ -20,13 +20,11 @@
 		</div>
 
 		<div class="overall_container">
-			<!-- <div class="scrollbar">
-				<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-				test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test
-				test test test test test test test test test test test test test test test test test test test test test test test test tetest test test test test test test test test test test test test test test test test test test test test test test test tetest test test test test test test test test test test test test test test test test test test test test test test test tetest test test test test test test test test test test test test test test test test test test test test test test test tetest test test test test test test test test test test test test test test test test test test test test test test test tetest test test test test test test test test test test test test test test test test test test test test test test test tetest test test test test test test test test test test test test test test test test test test test test test test test tetest test test test test test test test test test test test test test test test test test test test test test test test tetest test test test test test test test test test test test test test test test test test test test test test test test tetest test test test test test test test test test test test test test test test test test test test test test test test tetest test test test test test test test test test test test test test test test test test test test test test test test tetest test test test test test test test test test test test test test test test test test test test test test test test tetest test test test test test test test test test test test test test test test test test test test test test test test tetest test test test test test test test test test test test test test test test test test test test test test test test te
-			</div> -->
+
 
 			<div id="svg_container">
+
+				<h1 id="year" class="avenir">Year</h1>
 
 			</div>
 
@@ -34,37 +32,43 @@
 
 					<!--this should be empty and dynamically populated-->
 
-						d3.select("#title_name").html(d.Name)
-
-						<div class="player_title f2 athelas">
-								<h1 id="title_name">Babe Ruth</h1>
+						<div class="player_title avenir">
+								<h1 id="title_name">The Best MLB Players by Decade</h1>
 						</div>
 
-						<div class="player_war f3 athelas">
-								<h2>Wins Above Replacement: 50.8</h2>
+						<div class="player_war avenir">
+								<h2 id="war"></h2>
 						</div>
 
 						<div class="picture">
-							<img src="player_jpg/babe-ruth-2.jpg" alt="babe-ruth">
+							<img id="photo" src="photo/mlb4.png">
 						</div>
 
-						<div class="player_bio athelas">
-							<p>George Herman "Babe" Ruth Jr. (February 6, 1895 – August 16, 1948) was an American professional baseball player whose career in Major League Baseball (MLB) spanned 22 seasons,
-							 from 1914 through 1935. Nicknamed "The Bambino" and "The Sultan of Swat",
-							 he began his MLB career as a stellar left-handed
-							  pitcher for the Boston Red Sox, but achieved his greatest fame
-								as a slugging outfielder for the New York Yankees. Ruth is regarded as one
-								 of the greatest sports heroes in American culture and is considered by many to
-								 be the greatest baseball player of all time.</p>
+						<div class="player_bio avenir">
+							<p id="bio">This is a visualization of the best Major League Baseball players by decade,
+							as determined by
+							 <a href="https://thebaseballscholar.com/category/all-decade-team/" target="_blank">The Baseball Scholar</a>. Each position is represented by one player.
+							 Begin scrolling, and then hover over a circle to display player information. The statistics are calculated within the
+							 scope of each decade, therefore they are not the summary statistics of player's entire career. In addition, some players
+							 were determined to the best at their position in adjacent decades.
+							</p>
 						</div>
 
-						<div class="stats .f4 athelas">
-								<h3>Runs: <span id="insert"></span></h3>
-								<h3>Hits:</h3>
-								<h3>Home Runs:</h3>
-								<h3>RBI:</h3>
-								<h3>Stolen Bases:</h3>
-								<h3>Batting Average:</h3>
+						<div class="stats avenir">
+								<h3 id="runs"></h3>
+								<h3 id="hits"></h3>
+								<h3 id="homeruns"></h3>
+								<h3 id="rbi"></h3>
+								<h3 id="stolenbases"></h3>
+								<h3 id="ba"></h3>
+
+								<h3 id="w"></h3>
+								<h3 id="l"></h3>
+								<h3 id="era"></h3>
+								<h3 id="so"></h3>
+								<h3 id="k9"></h3>
+								<h3 id="whip"></h3>
+
 						</div>
 
 			</div> <!--player_wrapper -->

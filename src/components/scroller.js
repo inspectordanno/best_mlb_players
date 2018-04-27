@@ -1,7 +1,7 @@
 import * as d3 from 'd3';
 import * as jquery from 'jquery';
 import drawPlayers from './players';
-import {fieldDictionary} from './dictionary';
+import {colorDictionary,fieldDictionary} from './dictionary';
 import '../style/variables.scss';
 
 
@@ -24,6 +24,9 @@ const render = (id,data) => {
   let subset = data.filter(d => {
         return d.Year == year;
       });
+
+  changeYearHeader(year);
+
   changeColorField('#path2807', year);
   changeColorField('#path2795', year);
   changeColorField('#path2793', year);
@@ -60,4 +63,15 @@ function makeGray(year) {
   $('.st1, .st3, .st4, .st8').css('fill', '#bfbfbf');
   $('.st1, .st2, .st4, .st8').css('stroke', '#ffffff');
   }
+};
+
+function changeYearHeader (year) {
+  if (year ==='starter') {
+    d3.select('#year').html('Scroll to Begin');
+  } else {
+    const headerColor = colorDictionary.get(year);
+    d3.select('#year').html(year)
+      .style('color', headerColor);
+  }
+
 };

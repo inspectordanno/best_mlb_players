@@ -1,5 +1,6 @@
 import * as d3 from 'd3';
 import {positionDictionary, colorDictionary, fieldDictionary} from './dictionary';
+import hoverNode from './tooltip.js';
 
 export default function(players){
 
@@ -23,9 +24,10 @@ export default function(players){
 
   playersNode.enter().append('circle')
     .merge(playersNode)
-    .attr('class', d => {
+    .attr('class', 'player')
+    .style('fill', d => {
       const fillColor = colorDictionary.get(d.Year);
-      return fillColor + ' player';
+      return fillColor;
     })
     .attr('id', d => d.Name)
     .attr("cx",0)
@@ -44,21 +46,17 @@ export default function(players){
       if(!xy) return 0;
       return xy.y;
     })
-    .style('fill', d => {
-      const colorClass = colorDictionary.get(d.Year);
-      console.log( `var(${colorClass})`);
-      return `var(${colorClass})`;
-    })
     .attr('r', 8);
 
+    hoverNode();
 
-    d3.selectAll('.player').on("mouseover", d => {
-      console.log(d3.select("span#insert"))
-      d3.select("#insert").html(d.R);
-      d3.select('#title_name')
-        .style('color', fieldDictionary.get(d.Year));
-      console.log(d.R);
-    });
+    // d3.selectAll('.player').on("mouseover", d => {
+    //   console.log(d3.select("span#insert"))
+    //   d3.select("#insert").html(d.R);
+    //   d3.select('#title_name')
+    //     .style('color', fieldDictionary.get(d.Year));
+    //   console.log(d.R);
+    // });
 
     playersNode.exit()
       .transition()
