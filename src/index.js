@@ -6,17 +6,12 @@ console.log($('body'));
 // console.log(waypoints);
 import * as waypoints from 'waypoints/lib/jquery.waypoints.js';
 import {parse} from './components/utils.js';
-import {dictionary, positionSelect} from './components/dictionary.js';
+import {positionDictionary, positionSelect, colorDictionary, fieldDictionary} from './components/dictionary.js';
 import {scrollDiv} from './components/scroller.js';
 // import tooltip from './components/tooltip.js'
 import './style/tachyons.min.scss';
+import './style/variables.scss'
 import './style/appStyles.scss';
-
-console.log(dictionary);
-// tooltip();
-
-//every time i trigger a waypoint, i am filtering out all the players that match the decade and then do an update pattern
-
 
 Promise.all([
   d3.csv('./data/baseball.csv',parse),
@@ -24,20 +19,42 @@ Promise.all([
 ]).then(function([data,xml]) {
   document.getElementById('svg_container').appendChild(xml.documentElement);
 
-  // //<svg> populated, now get the location of the <svg> elements
-  // dictionary.set('Pitcher', positionSelect('#pitcher'))
-    // .set('Catcher', positionSelect('#catcher'))
-    dictionary.set('First Base', positionSelect('#rect2801'))
-    .set('Second Base', positionSelect('#rect2803'))
-    .set('Shortstop', positionSelect('#shortstop'))
-    .set('Third Base', positionSelect('#rect2799'))
-    .set('Catcher', positionSelect('#home'))
-    .set('Left Field', positionSelect('#left'))
-    .set('Center Field', positionSelect('#center'))
-    .set('Right Field', positionSelect('#right'))
-    .set('Pitcher', positionSelect('#rect2805'));
+
+    positionDictionary.set('First Base', positionSelect('#rect2801'))
+      .set('Second Base', positionSelect('#rect2803'))
+      .set('Shortstop', positionSelect('#shortstop'))
+      .set('Third Base', positionSelect('#rect2799'))
+      .set('Catcher', positionSelect('#home'))
+      .set('Left Field', positionSelect('#left'))
+      .set('Center Field', positionSelect('#center'))
+      .set('Right Field', positionSelect('#right'))
+      .set('Pitcher', positionSelect('#rect2805'));
+
+    colorDictionary.set('1910s', 'fillred')
+      .set('1920s', 'fillorange')
+      .set('1930s', 'fillpurple')
+      .set('1940s', 'fillpink')
+      .set('1950s', 'fillgreen')
+      .set('1960s', 'fillnavy')
+      .set('1970s', 'fillblue')
+      .set('1980s', 'fillblack')
+      .set('1990s', 'fillgray')
+      .set('2000s', 'fillwhite');
+
+    fieldDictionary.set('1910s', '#ffd3cc')
+      .set('1920s', '#ffe0cc')
+      .set('1930s', '#e3d7f4')
+      .set('1940s', '#ffccee')
+      .set('1950s', '#d3f8ea')
+      .set('1960s', '#cce0ff')
+      .set('1970s', '#cce2ff')
+      .set('1980s', '#e6e6e6')
+      .set('1990s', '#bfbfbf')
+      .set('2000s', '#999999');
 
 
-    console.log(dictionary.get('Pitcher'));
+
+
+    console.log(positionDictionary.get('Pitcher'));
     scrollDiv(data);
 });

@@ -8,6 +8,10 @@ const positionSelect = position => {
   };
 };
 
-const dictionary = map();
+const positionDictionary = map();
 
-export {dictionary, positionSelect};
+const colorDictionary = map();
+
+const fieldDictionary = map();
+
+export {positionDictionary, positionSelect, colorDictionary, fieldDictionary};

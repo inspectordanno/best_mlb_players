@@ -1,22 +1,24 @@
 import * as d3 from 'd3';
-import {dictionary} from './dictionary';
+import {positionDictionary, colorDictionary} from './dictionary';
 
 export default function(players){
 
   console.log(players);
 
+  
+
   const playersNode = d3.select('#layer1')
     .selectAll('.player')
     .data(players, d => d.Name);
 
-  console.log(dictionary);
+  console.log(positionDictionary);
 
   playersNode.enter().append('circle')
     .attr('class','player')
     .attr('id', d => d.Name)
     .merge(playersNode)
     .attr('cx', d => {
-      const xy = dictionary.get(d.Position);
+      const xy = positionDictionary.get(d.Position);
       if(!xy) return 0;
       console.log(xy);
       // console.log(d3.select("svg").node().getBBox().width / 650);
@@ -24,17 +26,18 @@ export default function(players){
       return xy.x;
     })
     .attr('cy', d => {
-      const xy = dictionary.get(d.Position);
+      const xy = positionDictionary.get(d.Position);
       if(!xy) return 0;
       return xy.y;
     })
-    .attr('fill', d =>{
-      console.log(d.Year);
-      if (d.Year === "2000s") {
-        return 'red';
-      } else {
-        return 'gray';
-      }
+    // .style('fill', d => {
+    //   const colorClass = colorDictionary.get(d.Year);
+    //   console.log( `var(${colorClass})`);
+    //   return `var(${colorClass})`;
+    // })
+    .attr('class', d => {
+      const fillColor = colorDictionary.get(d.Year);
+      return fillColor;
     })
     .attr('r', 8)
     .on("mouseover", d => {

@@ -1,4 +1,51 @@
 //color scheme
 
-$themeColor-Light: #f3e2c7;
-$themeColor-Dark:#b68d4c;
+$darkRed: #e7040f;
+$orange: #ff6300;
+$purple: #5e2ca5;
+$darkPink: #d5008f;
+$darkGreen: #137752;
+$navy: #001b44;
+$darkBlue: #00449e;
+$black: black;
+$midGray: #6A6C6E;
+
+.fillred {
+  fill: $darkRed;
+}
+
+.fillorange {
+  fill: $orange;
+}
+
+.fillpurple {
+  fill: $purple;
+}
+
+.fillpink {
+  fill: $darkPink;
+}
+
+.fillgreen {
+  fill: $darkGreen;
+}
+
+.fillnavy {
+  fill: $navy;
+}
+
+.fillblue {
+  fill: $darkBlue;
+}
+
+.fillblack {
+  fill: $black;
+}
+
+.fillgray {
+  fill: $midGray;
+}
+
+.fillwhite {
+  fill: white;
+}
